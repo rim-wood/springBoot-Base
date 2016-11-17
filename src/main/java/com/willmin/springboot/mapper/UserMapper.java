@@ -12,5 +12,5 @@ import com.willmin.springboot.utils.MyMapper;
  * @date 2016年7月1日
  */
 public interface UserMapper extends MyMapper<User>{
-	public List<User> findAll();
+	List<User> findAll();
 }
